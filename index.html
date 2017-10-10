@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>毕业纪念</title>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/one.css" />
+    <link rel="stylesheet" type="text/css" href="css/two.css" />
+    
+  </head>
+
+  <body>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div id="graduateOne" class="graduate-one">
+            <div class="blue">
+              <div class="images bounceInRight animated">
+                <img src="images/t_14661325895763686d389d5.png" />
+              </div>
+              <div class="zoomInDown animated">
+                <div class="xin1">
+                  <img src="images/xin.gif" />
+                </div>
+                <div class="xin2">
+                  <img src="images/xin.gif" />
+                </div>
+              </div>
+            </div>
+            <div class="xin3 rotateInDownRight swing animated">
+              <img src="images/xin2.gif" />
+            </div>
+            <div class="kuang rotateInDownLeft animated">
+              <div class="aircraft">
+                <img src="images/t_14661325655763685565b32.png" />
+              </div>
+              <div class="character bounceInDown animated">
+                <img src="images/01-01.gif" />
+              </div>
+              <div class="cap bounceIn animated">
+                <img src="images/t_14661325655763685514b0a.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide ">
+          <div class="two  ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s">
+            <div class="Graduation slideInDown animated">
+              <span class="slideInDown animated">
+          Graduation
+        </span>
+            </div>
+            <div class="frame ">
+              <img src="images/t_146613327857636b1e7f085.png" />
+            </div>
+            <div class="img">
+              <img src="images/t_146613328057636b20a400e.png" class="tada  animated" />
+              <img src="images/t_146613328157636b214ae38.png" class="zoomInDown animated" />
+              <img src="" />
+              <img src="images/t_146613328557636b25bf5e6.png" class="flip animated" />
+              <img src="images/t_146613328657636b2692ddd.png" class="zoomInDown animated" />
+              <img src="images/t_146613328857636b2885191.png" class="lightSpeedIn animated" />
+              <img src="images/t_146613328957636b294a906.png" class="jello animated" />
+              <img src="images/t_146613328957636b29d58e0.png" class="lightSpeedIn animated" />
+              <img src="images/t_146613329057636b2ac011a.png" class="zoomInDown animated" />
+              <img src="images/t_146613329157636b2b5a83b.png" class="jello animated" />
+              <img src="images/t_146613329157636b2bc9c37.png" class="jello animated" />
+              <img src="images/t_146613329257636b2c50df8.png" class="zoomInDown animated" />
+            </div>
+
+            <div class="footer">
+              <img src="images/o_146613402757636e0bcab53.png" class="slideInUp animated" />
+              <img src="images/o_146613419857636eb6882fd.png" class=" slideInUp animated" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+      var mySwiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        loop: true,
+        onInit: function(swiper) { //Swiper2.x的初始化是onFirstInit
+          swiperAnimateCache(swiper); //隐藏动画元素 
+          swiperAnimate(swiper); //初始化完成开始动画
+        },
+        onSlideChangeEnd: function(swiper) {
+          swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        }
+      })
+    </script>
+  </body>
+
+</html>
