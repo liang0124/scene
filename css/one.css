@@ -36,8 +36,9 @@ html,body{
 	float: right;
 }
 .images{
-	margin: 130px 20px;
-	float: right;
+	    margin: 130px 0px;
+    position: absolute;
+    left: 340px;
 }
 .images img{
 	width: 40rem;
@@ -104,8 +105,6 @@ html,body{
 	position: absolute;
 	top: 10em;
 	left: 14em;
-	animation:mymove 4s infinite;
-	-webkit-animation:mymove 4s infinite; /*Safari and Chrome*/
 }
 
 @keyframes mymove
@@ -127,8 +126,8 @@ to {left:15em;}
 }
 .kuang .cap{
 	position: absolute;
-	top: 32em;
-	left: 8em;
+	    top: 41em;
+    left: 10em;
 }
 .kuang .cap img{
 	width: 16rem;
@@ -145,3 +144,38 @@ to {left:15em;}
 }
 
 
+.swiper-slide:nth-child(1){
+  width: 100%;
+  height: 100%;
+  background: #b4d3e8;
+}
+.swiper-slide:nth-child(2){
+  width: 100%;
+  height: 100%;
+  background: #f7ccd3;
+}
+.swiper-slide:nth-child(3){
+  width: 100%;
+  height: 100%;
+  background: #b4d3e8; 
+}
+.swiper-slide:nth-child(4){
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 235, 179);
+}
+.swiper-slide:nth-child(5){
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.swiper-slide:nth-child(6){
+  width: 100%;
+  height: 100%;
+  background: #b4d3e8;
+}
+.swiper-slide:nth-child(7){
+  width: 100%;
+  height: 100%;
+  background: #f7ccd3;
+}

@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.respectively-tier1{
+	width: 100%;
+	height: 100%;
+}
+.respectively-tier1 img:nth-child(1){
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.respectively-tier1 img:nth-child(2){
+	position: absolute;
+	top: 0;
+	left: 7px;
+	width: 100%;
+	height: 100%;
+}
+.respectively-tier2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.rotate-in  img:nth-child(1){
+	width: 34rem;
+	height: 34rem;
+	position: absolute;
+	top: 4rem;
+	right: 3rem;
+}
+.rotate-in  img:nth-child(2){
+	width: 25rem;
+	height: 25rem;
+	position: absolute;
+	bottom: 5rem;
+	left: 5rem;
+}
+.dividing{
+	width: 100%;
+	height: 12rem;
+	position: absolute;
+	top: 52rem;
+	left: 0;
+}
+.summer{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.summer-img{
+	display: block;
+	width:9rem ;
+	height: 7rem;
+	position: absolute;
+	top: 2.5rem;
+	right: 1rem;
+}
+.summer-text{
+	font-size: 3rem;
+	font-weight: 600;
+	color: #000;
+	position: absolute;
+	top: 4.5rem;
+	left: 0.8rem;
+}
+.four-text img:nth-child(1){
+	width: 24rem;
+	height: 22rem;
+	position: absolute;
+	top: 24rem;
+	left: 5.5rem;
+}
+.four-text img:nth-child(2){
+	width: 16rem;
+	height: 13rem;
+	position: absolute;
+	bottom: 13rem;
+	right: 13rem;
+}

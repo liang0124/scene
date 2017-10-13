@@ -13,6 +13,9 @@ html,body{
   width: 100%;
   height: 100%;
 }
+.ani{
+  height: 100%;
+}
 .two {
   background: #b4d3e8;
   width: 100%;
@@ -35,75 +38,87 @@ img {
 }
 
 .img img:nth-child(1) {
-  top: 500px;
-  left: 163px;
-  width: 8.5rem;
+      top: 500px;
+    left: 163px;
+    width: 8.5rem;
+    height: 22rem;
 }
 
 .img img:nth-child(2) {
-  top: 1150px;
-  left: 152px;
-  width: 11.5rem;
+     top: 1150px;
+    left: 152px;
+    width: 11.5rem;
+    height: 10rem;
 }
 
 .img img:nth-child(4) {
-  top: 280px;
-  right: 37%;
-  width: 16.5rem;
+ top: 280px;
+    right: 37%;
+    width: 16.5rem;
+    height: 22rem;
 }
 
 .img img:nth-child(5) {
-  top: 1079px;
-  right: 48%;
-  width: 8.5rem;
+      top: 1079px;
+    right: 48%;
+    width: 8.5rem;
+    height: 21rem;
 }
 
 .img img:nth-child(6) {
-  top: 924px;
-  left: 124px;
-  width: 14rem;
+     top: 891px;
+    left: 122px;
+    width: 13rem;
+    height: 11rem;
 }
 
 .img img:nth-child(7) {
-  top: 690px;
-  right: 372px;
-  width: 15rem;
+      top: 690px;
+    right: 372px;
+    width: 15rem;
+    height: 12rem;
 }
 
 .img img:nth-child(8) {
   top: 1158px;
-  left: 534px;
-  width: 19.5rem;
+    left: 534px;
+    width: 19.5rem;
+    height: 17rem;
 }
 
 .img img:nth-child(9) {
-  top: 880px;
-  right: 200px;
-  width: 10rem;
+    top: 880px;
+    right: 200px;
+    width: 10rem;
+    height: 16rem;
 }
 
 .img img:nth-child(10) {
-  top: 664px;
-  right: 153px;
-  width: 10rem;
+      top: 527px;
+    right: 153px;
+    width: 10rem;
+    height: 20rem;
 }
 
 .img img:nth-child(11) {
   top: 907px;
-  left: 40%;
-  width: 12.5rem;
+    left: 40%;
+    width: 12.5rem;
+    height: 9rem;
 }
 
 .img img:nth-child(12) {
-  top: 350px;
-  right: 80px;
-  width: 10.5rem;
+      top: 350px;
+    right: 80px;
+    width: 10.5rem;
+    height: 9rem;
 }
 
 .frame img {
   position: absolute;
   z-index: 9999;
   width: 55rem;
+  height: 84rem;
   top: 150px;
   left: 5%;
 }
@@ -116,8 +131,12 @@ img {
 
 .footer img:nth-child(1) {
   bottom: 120px;
+      width: 33rem;
+    height: 6rem;
 }
 
 .footer img:nth-child(2) {
   bottom: 30px;
+      width: 33rem;
+    height: 6rem;
 }
