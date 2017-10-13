@@ -44,16 +44,15 @@ html,body{
 	width: 40rem;
 	height: 60rem;
 }
-
 .xin1{
 	position: absolute;
 	top: 50px;
-	left: 150px;
+	left: 15px;
 }
 .xin2{
 	position: absolute;
 	top: 50px;
-	left: 270px;
+	left: 135px;
 }
 .xin1 img{
 	transform: rotate(-20deg);
@@ -126,8 +125,8 @@ to {left:15em;}
 }
 .kuang .cap{
 	position: absolute;
-	    top: 41em;
-    left: 10em;
+	top: 32em;
+    left: 9em;
 }
 .kuang .cap img{
 	width: 16rem;
